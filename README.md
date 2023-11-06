@@ -1,61 +1,45 @@
 # CRUD_Student
-Database ที่ใช้ในApplicationนี้
-[Uploa-- phpMyAdmin SQL Dump
--- version 5.2.1
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Nov 06, 2023 at 03:06 PM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.0.28
+Set Database
+เปิดXampp เเละ ทำการ Import Database จากที่อาจาร์ยสั่งในคลาสรูมก่อน
+https://drive.google.com/file/d/1lqzQ1i-OCcsMVXvhsXd7dUR9LfF8T0Hj/view?usp=drive_web&authuser=0
+![image](https://github.com/TitadachFF/CRUD_Student/assets/120708254/e989c405-a5d5-4e9c-951a-d24c749f9417)
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
+Run Application CRUD Manage Student
+ทำการ Clone Rapository https://github.com/TitadachFF/CRUD_Student.git
+
+![image](https://github.com/TitadachFF/CRUD_Student/assets/120708254/e4339e2f-9030-4983-b9bf-af2c9fac1471)
+
+ทำการ Run Appขึ้นมา 
+![image](https://github.com/TitadachFF/CRUD_Student/assets/120708254/8c3b5496-7568-43ab-ba95-72d642086540)
+
+[Example]Add New Student
+![image](https://github.com/TitadachFF/CRUD_Student/assets/120708254/c6e230e3-7d25-4c3b-b11e-cf263fe2d935)
+[Example]Result
+![image](https://github.com/TitadachFF/CRUD_Student/assets/120708254/6749041c-d495-4c6e-8fc8-d7546b8befbb)
+
+[Example]Edit Student ID 644259030
+![image](https://github.com/TitadachFF/CRUD_Student/assets/120708254/fbc49752-3605-45d3-8464-15cef0285f4d)
+[Example]Result
+![image](https://github.com/TitadachFF/CRUD_Student/assets/120708254/1fd519f1-d45b-49cf-bc00-fb2493797013)
+
+[Example]Delete Student ID 644259030
+![image](https://github.com/TitadachFF/CRUD_Student/assets/120708254/e9c91112-adb9-4c43-bde3-d918801a3acb)
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
 
---
--- Database: `student`
---
 
--- --------------------------------------------------------
 
---
--- Table structure for table `student`
---
 
-CREATE TABLE `student` (
-  `stu_id` varchar(9) NOT NULL,
-  `stu_name` varchar(45) NOT NULL,
-  `stu_tel` varchar(10) NOT NULL,
-  `stu_fb` varchar(35) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
---
--- Dumping data for table `student`
---
 
-INSERT INTO `student` (`stu_id`, `stu_name`, `stu_tel`, `stu_fb`) VALUES
-('614245122', 'somkiat chormuan', '09802112', 'fb:tko'),
-('644259010', 'Titadach Sratongaun', '0927735976', 'TFO');
 
---
--- Indexes for dumped tables
---
 
---
--- Indexes for table `student`
---
-ALTER TABLE `student`
-  ADD PRIMARY KEY (`stu_id`);
-COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-ding student (1).sql…]()
+
+
+
+
+
+
+
+
